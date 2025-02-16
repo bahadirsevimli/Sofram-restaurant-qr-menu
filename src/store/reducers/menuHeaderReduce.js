@@ -1,8 +1,10 @@
-import { SHOW_MENU_HEADER } from "../actions/menuHeaderAction"
+
 import menuHeaders from "../../assets/data/menu-headers"
+const SHOW_MENU_HEADER = "SHOW_MENU_HEADER";
+
 
 const initialState = {
-    menuTitle: "[]"
+    menuTitle: []
 }
 
 const menuHeaderReduce = (state = initialState, action) => {
