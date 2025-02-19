@@ -1,21 +1,21 @@
 
-import { menuler, corbaCesitleri, anaYemekler, 
-    yardimciYemekler, salatalar,tatlilar,
-sogukUrunler, doner, mesrubatlar, firinUrunleri,
-kahvaltiTabagi  } from "../../assets/data/menus";
+import { menuler, corbacesitleri, anayemekler, 
+    yardimciyemekler, salatalar,tatlilar,
+sogukurunler, doner, mesrubatlar, firinurunleri,
+kahvaltitabagi  } from "../../assets/data/menus";
 
 const initialState = {
     menuler: menuler,
-    corbaCesitleri: corbaCesitleri,
-    anaYemekler: anaYemekler,
-    yardimciYemekler: yardimciYemekler,
+    corbacesitleri: corbacesitleri,
+    anayemekler: anayemekler,
+    yardimciyemekler: yardimciyemekler,
     salatalar: salatalar,
     tatlilar: tatlilar,
-    sogukUrunler: sogukUrunler,
+    sogukurunler: sogukurunler,
     doner: doner,
     mesrubatlar: mesrubatlar,
-    firinUrunleri: firinUrunleri,
-    kahvaltiTabagi: kahvaltiTabagi,
+    firinurunleri: firinurunleri,
+    kahvaltitabagi: kahvaltitabagi,
 }
 
 const menuReducer = (state = initialState, action) => {

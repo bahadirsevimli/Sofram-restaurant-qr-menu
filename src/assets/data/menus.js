@@ -7,7 +7,7 @@ export let menuler = [
     {"id":4, "name": "3 ÇEŞİT MENÜ"},
     {"id":5, "name": "4 ÇEŞİT MENÜ"},
 ]
-export let corbaCesitleri = [
+export let corbacesitleri = [
     {"id":1, "name":"Mercimek Çorbası"},
     {"id":2, "name":"Yayla Çorbası"},
     {"id":3, "name":"Domates Çorbası"},
@@ -15,7 +15,7 @@ export let corbaCesitleri = [
     {"id":5, "name":"Erişteli Yeşil Mercimek Çorbası"},
     {"id":6, "name":"Tavuk Suyu Çorbası"},
 ]
-export let anaYemekler = [
+export let anayemekler = [
     {"id":1, "name":"İzmir Köfte"},
     {"id":2, "name":"Beşamel Soslu Tavuk"},
     {"id":3, "name":"Fajita"},
@@ -49,7 +49,7 @@ export let anaYemekler = [
     {"id":31, "name":"Tas Kebabı"},
     {"id":32, "name":"Yağlama"},
 ]
-export let yardimciYemekler = [
+export let yardimciyemekler = [
     {"id":1, "name":"Pirinç Pilavı"},
     {"id":2, "name":"Bulgur Pilavı"},
     {"id":3, "name":"Soslu Makarna"},
@@ -107,7 +107,7 @@ export let tatlilar = [
     {"id":21, "name":"Bisküvi Tatlısı"},
     {"id":22, "name":"Kıbrıs salatası"}
 ]
-export let sogukUrunler = [
+export let sogukurunler = [
     {"id":1, "name":"Yoğurt"},
     {"id":2, "name":"Cacık"},
 ]
@@ -135,7 +135,7 @@ export let mesrubatlar = [
     {"id":9, "name":"Meyveli Soda"},
     {"id":10, "name":"Büyük Ayran"},
 ]
-export let firinUrunleri = [
+export let firinurunleri = [
     {"id":1, "name":"Lahmacun"},
     {"id":2, "name":"Kaşarlı Pide"},
     {"id":3, "name":"Kuşbaşılı Pide"},
@@ -144,6 +144,6 @@ export let firinUrunleri = [
     {"id":6, "name":"Kıymalı Pide"},
     {"id":7, "name":"Karışık Pide"}
 ]
-export let kahvaltiTabagi = [
+export let kahvaltitabagi = [
     {"id":1, "name":"Kahvaltı Tabağı", "price": "400"},
 ]
