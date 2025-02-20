@@ -8,13 +8,16 @@ export default function MenuHeaders(){
     const menus = useSelector((store) => store.menuHeader.menuTitle);
    
     return(
-        <div className="w-full flex justify-center">
-            <div className="border-2 border-amber-300 w-[80%]">
+        <div className="w-full flex justify-center font-[Futura-Medium]">
+            <div className=" w-[80%] m-10 flex flex-col gap-3">
                 {menus.map((menuHeader) => {
                    
                     return(
                     <Link to={`/${menuHeader.code}`} >
-                        <div key={menuHeader.id} className="border-2 border-amber-600">
+                        <div key={menuHeader.id} 
+                        className=" relative p-8 rounded-2xl font-bold bg-cover bg-center text-white tracking-widest text-xl"
+                        style={{  backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("/assets/Images/MenuHeaderBgImg/${menuHeader.code}.jpg")` }}>
+                            
                             <h3>{menuHeader.name}</h3>
                             <span><img src="/svg/arrow-right-solid-svg" alt="" /></span>
                         </div>
