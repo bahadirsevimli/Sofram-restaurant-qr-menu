@@ -17,10 +17,21 @@ console.log(menu)
 
 
     return(
-     <>
-    {menu[selectedCategory]?.map((item) => (
-  <h4 key={item.id}>{item.name}</h4>
-))}
-     </>
+     <div className="w-full flex justify-center mt-10 mb-10">
+      <div className="w-[90%] max-w-2xl flex justify-between flex-wrap gap-y-10">
+         {menu[selectedCategory]?.map((item) => (
+            <div key={item.id} className="w-[43%] flex flex-col gap-2">
+              <img src={item.image} alt="" />
+              <h4>{item.name}</h4>
+              <p className="text-gray-500">{item.context}</p>
+              <div className="flex w-full justify-end">
+                <p>{item.price}</p>
+              </div>
+            </div>
+
+        ))}
+      </div>
+   
+     </div>
     )
 } 
