@@ -19,7 +19,6 @@ export default function MenuHeaders(){
                         style={{  backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("/assets/Images/MenuHeaderBgImg/${menuHeader.code}.jpg")` }}>
                             
                             <h3>{menuHeader.name}</h3>
-                            <span><img src="/svg/arrow-right-solid-svg" alt="" /></span>
                         </div>
                      </Link>    
                     )
