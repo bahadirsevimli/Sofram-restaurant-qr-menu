@@ -9,7 +9,7 @@ export default function MenuHeaders(){
    
     return(
         <div className="w-full flex justify-center font-[Futura-Medium]">
-            <div className=" w-[80%] m-10 flex flex-col gap-3">
+            <div className=" w-[80%] max-w-2xl m-10 flex flex-col gap-3">
                 {menus.map((menuHeader) => {
                    
                     return(
